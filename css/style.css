@@ -1,0 +1,80 @@
+
+/* header{
+    
+    max-width: 100%;
+    background-color:aqua ;
+}
+
+main{
+    
+    max-width: 100%;
+    background-color: blueviolet;
+}
+
+footer{
+    
+    max-width: 100%;
+    background-color: brown;
+} */
+
+.top{
+    min-height: 30px;
+    background-color: green;
+}
+
+.bottom{
+    min-height: 250px;
+    background-color: pink;
+}
+
+.portfolio{
+    min-height: 80px;
+    background-color: lightcoral;
+}
+
+.box{
+    min-height: 180px;
+    background-color: rgb(212, 255, 0);
+    border: 1px solid black;
+}
+
+.testo{
+    min-height: 130px;
+    background-color: red;
+    border: 1px solid black;
+}
+
+.testo-pie{
+    min-height: 50px;
+    background-color: red;
+}
+
+.indirizzi{
+    min-height: 200px;
+    background-color: lightblue;
+}
+
+.piede{
+    min-height: 100px;
+    background-color: lightgreen;
+    border: 1px solid black;
+
+}
+
+.piede-pic{
+    min-height: 50px;
+    background-color: lightgreen;
+    border: 1px solid black;
+
+}
+
+
+
+@media screen and (min-width: 576px) {
+
+    .box{
+        min-height: 150px;
+    }
+    
+}
+
