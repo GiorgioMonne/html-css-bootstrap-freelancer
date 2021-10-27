@@ -33,6 +33,11 @@ img{
     height: 280px;
     width: 100%;
     object-fit: cover;
+    opacity: 1;
+}
+
+img:hover{
+    opacity: 0.5;
 }
 
 .logo{
