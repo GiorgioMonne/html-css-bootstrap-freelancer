@@ -20,13 +20,19 @@
 }
 
 .box{
-    height: 90px;
-    background-color: lightgreen;
-    border: 1px solid black;
+    height: 300px;
+    object-fit: cover;
 }
 
-#jumbotron {
-    height: 500px;
+.box-stra{
+    object-fit: cover;
+    font-size: 16px;
+}
+
+img{
+    height: 280px;
+    width: 100%;
+    object-fit: cover;
 }
 
 .logo{
@@ -43,6 +49,18 @@
     display: flex;
     object-fit: cover;
 }
+
+.logo img{
+    height: 200px;
+    width: 180px;
+}
+
+.web-ill{
+    padding-bottom: 10px;
+} 
+
+
+
 
 
 
